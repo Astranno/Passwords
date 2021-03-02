@@ -20,7 +20,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         PasswordManagerClient.live.showPasswordManager()
             .receive(on: DispatchQueue.main)
             .sink(receiveCompletion: { _ in
-//                NSApplication.shared.terminate(self)
+                NSApplication.shared.terminate(self)
                 exit(0)
             }, receiveValue: { _ in })
             .store(in: &self.cancellables)
