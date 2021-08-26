@@ -1,3 +1,5 @@
+# Archived - Passwords now exposed in System Preferences as of macOS 12 Monterey
+
 <img src="https://user-images.githubusercontent.com/2769158/109599901-f3fa8580-7ad0-11eb-981f-08b6649e9115.png" height="150px">
 
 # Passwords
